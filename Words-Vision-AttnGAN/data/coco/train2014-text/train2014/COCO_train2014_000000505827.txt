@@ -1,0 +1,5 @@
+A room with a bed, chair, and two suitcases.
+A bed with a pair of shoes, luggage, and an armchair nearby.
+Two suitcases are by a bed and a chair.
+Two suitcases sit together at the end of the bed. 
+A bed with suitcases and an arm chair at the footboard

@@ -1,0 +1,5 @@
+A parking meter that is placed on a sidewalk.
+A parking meter and a car parked next to it
+A parking meter near a curb and a parked car. 
+A parking meter in front of a car. 
+There is a car parked next to a parking meter.

@@ -1,0 +1,5 @@
+A city intersection with cars at the stoplights 
+there are two cars that are waiting at the traffic light
+Cars are stopped at the intersection with the traffic light.
+Cars present at an intersection with traffic lights.
+A street intersection with cars approaching the traffic lights. 

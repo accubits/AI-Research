@@ -1,0 +1,5 @@
+A model of a wing plane with working lights
+A plane sits on the ground with its lights on.
+There is a toy space ship on the ground.
+A triangular aircraft sits on the ground with pointy wings.
+A plane parked on top of a dirty field.

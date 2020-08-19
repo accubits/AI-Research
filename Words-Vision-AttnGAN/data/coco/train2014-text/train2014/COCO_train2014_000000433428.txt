@@ -1,0 +1,5 @@
+A display crate that houses various prototypes of motorcycles.
+Motorcycles and cars in showroom exhibit in large building.
+A room with displays of motorcycles and cars.
+A garage filled with motorcycles and parked cars.
+A building with cases of motorcycles and cars on display.

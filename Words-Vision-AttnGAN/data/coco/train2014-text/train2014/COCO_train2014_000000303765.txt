@@ -1,0 +1,5 @@
+A traffic light with a signal stating only buses can turn right. 
+Traffic signal with turn prohibitions near office buildings.
+A very interesting traffic light with multiple signals.
+A traffic light is near a red bus and a building.
+Additional traffic signals are added to the traditional stop light.

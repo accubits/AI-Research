@@ -1,0 +1,5 @@
+A group of double decker and non double decker buses parked in a parking lot.
+Buses and bus parts are in a lot.
+Green and blue busses parked in paved lot.
+A number of blue and green transit buses and parts parked at a depot.
+A few city buses are parked in the parking lot. 

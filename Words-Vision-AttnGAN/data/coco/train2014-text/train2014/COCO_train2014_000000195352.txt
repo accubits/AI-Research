@@ -1,0 +1,5 @@
+A library with shelves of books and a seating area.
+This is a photo of an empty library. 
+The library is empty of people and very quiet
+There are almost no people at the library.
+A library filled with lots of books and computers on desk.

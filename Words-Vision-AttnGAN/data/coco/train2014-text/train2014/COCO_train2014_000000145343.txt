@@ -1,0 +1,5 @@
+A bus that is parked inside of a building.
+A red bus is parked inside of a garage.
+A maroon bus is parked inside of a garage.
+The bus is sitting in the repair station.
+A red bus is inside a garage with a table in front

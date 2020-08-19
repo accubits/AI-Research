@@ -1,0 +1,5 @@
+A metro train parked inside of a train station.
+A metro train parked at a station stop.
+A train in a subway that has a few passengers.
+A train is parked at a station with doors open to no further passengers.
+A metro train is waiting with it's doors opening inside the station as passengers are sitting inside. 

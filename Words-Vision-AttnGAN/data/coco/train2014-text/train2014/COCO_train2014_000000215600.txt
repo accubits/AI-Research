@@ -1,0 +1,5 @@
+A parking meter with the word fail on its lcd screen.
+a parking meter with with the word fail written in th window 
+The parking meter has either expired time, or requires repair.
+A parking meter that has a screen that says fail
+A metal parking meter showing time paid has expired.

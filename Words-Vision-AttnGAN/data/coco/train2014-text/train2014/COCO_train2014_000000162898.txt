@@ -1,0 +1,5 @@
+A drawer with a toothbrush, toothpaste, a comb and dental floss. 
+A bathroom drawer with children's toiletries and floss.
+The drawer has a comb, a toothbrush, and dental floss.
+A drawer that contains floss, toothpaste, toothbrush, and a comb. 
+The drawer holds only a toothbrush, toothpaste, a comb, and dental floss.

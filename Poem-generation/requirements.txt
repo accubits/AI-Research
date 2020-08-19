@@ -1,0 +1,6 @@
+mxnet
+tensorflow==1.6
+opencv-python
+tqdm
+colorama
+flask

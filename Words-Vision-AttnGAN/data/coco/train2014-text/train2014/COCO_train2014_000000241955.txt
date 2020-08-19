@@ -1,0 +1,5 @@
+A toy model of a town and highway with traffic.
+A truck moving along on some road during the day.
+A white transport truck driving down a street.
+A model truck on a model street with buildings.
+Small truck sitting in the middle of a tiny road in a tiny town.

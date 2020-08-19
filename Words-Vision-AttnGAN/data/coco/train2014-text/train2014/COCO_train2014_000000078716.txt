@@ -1,0 +1,5 @@
+A metallic parking meter with a digital screen next to street.
+A parking meter the accepts both credit cards and coin. 
+A parking meter sitting idle in the shade.
+A parking meter machine that accepts coins and credit cards.
+Parking meter will accept coins, visa or mastercard

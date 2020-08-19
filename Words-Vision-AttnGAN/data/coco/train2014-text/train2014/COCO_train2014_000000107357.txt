@@ -1,0 +1,5 @@
+A collection of buses and people at a bus depot.
+People wait at the bus station as the buses pull in.
+Buses stop a bus stop to pick up riders
+Scene of a bus station run by Rossendalebus company.
+Buses line up at a stop to discharge and take on passengers.

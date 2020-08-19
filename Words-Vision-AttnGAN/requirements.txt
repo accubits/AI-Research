@@ -1,0 +1,9 @@
+torch==1.5.1
+torchvision==0.6.1
+python-dateutil
+easydict
+pandas
+torchfile
+nltk
+scikit-image
+pyyaml
