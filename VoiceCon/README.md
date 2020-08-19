@@ -33,6 +33,8 @@ Docker setup:
     chmod +x build.sh
     ./build.sh
     ```
+    <br>
+    
   - To start the dockerized API, run start.sh
     
     <br>
@@ -48,3 +50,11 @@ Docker setup:
 
  - [Postman collection](https://www.getpostman.com/collections/17e2fc0795fbff6aa9b4)
  - [Postman Docs](https://documenter.getpostman.com/view/8991468/T1LSCRas)
+ 
+<br> 
+
+### Samples
+
+<br>
+
+View the results generated for Donald Trump's and Shashi Tharoor's voice in the results folder
