@@ -55,6 +55,4 @@ Docker setup:
 
 ### Samples
 
-<br>
-
 View the results generated for Donald Trump's and Shashi Tharoor's voice in the results folder
