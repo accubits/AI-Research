@@ -4,16 +4,15 @@ VoiceCon is a production ready implementation of a three-stage deep learning fra
 
 <br>
 
-# Deployment
+### Deployment
 
-### Clone the Repo:
+**Clone the Repo**:
   
   - git clone https://github.com/accubits/AI-Research.git
   - cd AI-Research/VoiceCon    
 
-<br>
 
-### Download pre-trained models:
+**Download pre-trained models**:
   
   - [Google Drive](https://drive.google.com/file/d/1n1sPXvT34yXFLT47QZA6FIRGrwMeSsZc/view?usp=sharing)
   - Extract the zip file
@@ -24,9 +23,7 @@ VoiceCon is a production ready implementation of a three-stage deep learning fra
     unzip pretrained.zip
     ```
   
-<br>
-  
-### Docker setup:
+**Docker setup**:
   
   - Run build.sh file to build the docker image
     
