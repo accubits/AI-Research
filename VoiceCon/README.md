@@ -6,6 +6,8 @@ VoiceCon is a production ready implementation of a three-stage deep learning fra
 
 ### Deployment
 
+<br>
+
 **Clone the Repo**:
   
   - git clone https://github.com/accubits/AI-Research.git
@@ -46,14 +48,14 @@ VoiceCon is a production ready implementation of a three-stage deep learning fra
 
 <br>
 
-# API Docs
+### API Docs
 
  - [Postman collection](https://www.getpostman.com/collections/17e2fc0795fbff6aa9b4)
  - [Postman Docs](https://documenter.getpostman.com/view/8991468/T1LSCRas)
  
 <br> 
 
-# Results
+### Results
 
  - [Dr. Shashi Tharoor](https://github.com/accubits/AI-Research/blob/master/VoiceCon/results/Accubits_shashi_tharoor.wav)
  - [Donald Trump](https://github.com/accubits/AI-Research/blob/master/VoiceCon/results/Accubits_trump.wav)
