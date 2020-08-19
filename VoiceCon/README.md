@@ -17,6 +17,9 @@ Download pre-trained models:
   
   - [Google Drive](https://drive.google.com/file/d/1n1sPXvT34yXFLT47QZA6FIRGrwMeSsZc/view?usp=sharing)
   - Extract the zip file
+    
+    <br>
+    
     ```sh
     unzip pretrained.zip
     ```
