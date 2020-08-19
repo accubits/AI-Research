@@ -4,6 +4,8 @@ VoiceCon is a production ready implementation of a three-stage deep learning fra
 
 <br>
 
+------------------------------------------------------
+
 ### Deployment
 
 <br>
@@ -42,6 +44,8 @@ VoiceCon is a production ready implementation of a three-stage deep learning fra
     ```    
 
 <br>
+
+------------------------------------------------------
 
 ### API Docs
 
