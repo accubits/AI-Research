@@ -17,14 +17,9 @@ VoiceCon is a production ready implementation of a three-stage deep learning fra
 **Download pre-trained models**:
   
   - [Google Drive](https://drive.google.com/file/d/1n1sPXvT34yXFLT47QZA6FIRGrwMeSsZc/view?usp=sharing)
-  - Extract the zip file
-    
-    <br>
-    
-    ```sh
-    unzip pretrained.zip
-    ```
-  
+  - Extract the zip file `unzip pretrained.zip`
+   
+   
 **Docker setup**:
   
   - Run build.sh file to build the docker image
