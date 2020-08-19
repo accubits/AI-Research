@@ -55,5 +55,5 @@ Docker setup:
 
 ### Results
 
-[Dr. Shashi Tharoor](https://github.com/accubits/AI-Research/blob/master/VoiceCon/results/Accubits_shashi_tharoor.wav)
-[Donald Trump](https://github.com/accubits/AI-Research/blob/master/VoiceCon/results/Accubits_trump.wav)
+ - [Dr. Shashi Tharoor](https://github.com/accubits/AI-Research/blob/master/VoiceCon/results/Accubits_shashi_tharoor.wav)
+ - [Donald Trump](https://github.com/accubits/AI-Research/blob/master/VoiceCon/results/Accubits_trump.wav)
