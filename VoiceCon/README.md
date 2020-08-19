@@ -53,6 +53,6 @@ Docker setup:
  
 <br> 
 
-### Samples
+### Results
 
-View the results generated for Donald Trump's and Shashi Tharoor's voice in the results folder
+[Shashi Tharoor](https://github.com/accubits/AI-Research/blob/master/VoiceCon/results/Accubits_shashi_tharoor.wav)
