@@ -1,0 +1,9 @@
+ENCODER_MODEL_PATH = "encoder/saved_models/pretrained.pt"
+SYNTHESIZER_MODEL_PATH = "synthesizer/saved_models/logs-pretrained/"
+VOCODER_MODEL_PATH = "vocoder/saved_models/pretrained/pretrained.pt"
+N_PROCESS = 4
+DATASET_ROOT = "dataset"
+SYNTHESIZER_ROOT = "synthesizer"
+EMBED_CONFIG_PATH = "data/embeddings.json"
+STATIC_DIR = "blob"
+API_URL = "http://localhost:5000/"

@@ -55,6 +55,7 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+*.history
 
 # Translations
 *.mo
@@ -113,6 +114,34 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# VoiceCon
+VoiceCon/blob/*
+VoiceCon/data/*
+VoiceCon/dataset/*
+VoiceCon/*.pyc
+VoiceCon/*.aux
+VoiceCon/*.log
+VoiceCon/*.out
+VoiceCon/*.synctex.gz
+VoiceCon/*.suo
+VoiceCon/*__pycache__
+VoiceCon/*.idea
+VoiceCon/*.ipynb_checkpoints
+VoiceCon/*.pickle
+VoiceCon/*.npy
+VoiceCon/*.blg
+VoiceCon/*.bbl
+VoiceCon/*.bcf
+VoiceCon/*.toc
+VoiceCon/*.wav
+VoiceCon/encoder/saved_models/*
+VoiceCon/synthesizer/saved_models/*
+VoiceCon/synthesizer/embeds/*
+VoiceCon/vocoder/saved_models/*
+VoiceCon/*.alt
+VoiceCon/*.bak
 
 
 # End of https://www.gitignore.io/api/python
