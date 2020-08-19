@@ -10,3 +10,4 @@ If you cannot find appropriate AI models in the repo, it might very well be done
 * [Image-Words-Show_Attend_Tell](https://github.com/accubits/AI-Research/blob/master/Image-Words-Show_Attend_Tell/README.md)
 * [Poem-generation](https://github.com/accubits/AI-Research/blob/master/Poem-generation/README.md)
 * [Words-Vision-AttnGAN](https://github.com/accubits/AI-Research/tree/master/Words-Vision-AttnGAN)
+* [VoiceCon](https://github.com/accubits/AI-Research/tree/master/VoiceCon)
