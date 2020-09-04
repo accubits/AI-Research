@@ -1,7 +1,4 @@
 from flask import Flask, request
-import requests
-from pymongo import MongoClient
-from flask_cors import CORS
 from scrape_summarize import scrapeData, dataClean, textSummary
 from datetime import datetime
 
