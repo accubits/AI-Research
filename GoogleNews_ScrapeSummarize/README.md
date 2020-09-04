@@ -31,7 +31,7 @@ run `pip install -r requirements.txt` to install the required dependencies.
 ### Additional Information
 
 - A flask api is created and it can be run with the command `python scrapper_api.py`.
-- The api accepts a json file of the format given below:
+- The api accepts a json file of the format given below and returns the summary.
 ```
 {
     "search_term" : "SEARCH_TERM",
