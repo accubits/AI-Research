@@ -30,7 +30,7 @@ run `pip install -r requirements.txt` to install the required dependencies.
 
 ### Sample Outputs
 
-'''
+```
 Search term: bitcoin
 Date Created: 04/09/2020 11:09:05
 Links failed: 4
