@@ -43,7 +43,7 @@ def scrapeData(search_term,num_links):
     return articles,n_fail_links
 
 def dataClean(data):
-    BOW = ['[rR]ead [mM]ore.*']
+    BOW = ['[rR]ead [mM]ore.*','\[.*\]']
     for pattern in BOW:
         data = (re.sub(pattern, '', data))
     return data
