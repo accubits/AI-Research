@@ -17,6 +17,9 @@ from newspaper import Article
 from tqdm import tqdm
 from argparse import ArgumentParser
 from datetime import datetime
+import time
+
+start_time = time.time()
 
 chrome_options = Options()
 chrome_options.add_argument("--headless") 
@@ -43,7 +46,7 @@ def scrapeData(search_term,num_links):
     return articles,n_fail_links
 
 def dataClean(data):
-    BOW = ['[rR]ead [mM]ore.*','\[.*\]']
+    BOW = ['[rR]ead [mM]ore.*','\[.*\]','[aA]lso [rR]ead']
     for pattern in BOW:
         data = (re.sub(pattern, '', data))
     return data
@@ -74,7 +77,8 @@ if __name__ == "__main__":
     data,n_fail_links = scrapeData(search_term, num_links)
     clean_data = dataClean(data)
     summary = textSummary(clean_data, sent_count)
-    prefix = 'Search term: {}\nDate Created: {}\nLinks failed: {}\n\n'.format(search_term,datetime.now().strftime("%d/%m/%Y %H:%M:%S"),n_fail_links)
+    stop_time = time.time()
+    prefix = 'Search term: {}\nDate Created: {}\nTime taken: {:.2f}s\nLinks searched: {}\nLinks failed: {}\nOutput sentence count: {}\n\n'.format(search_term,datetime.now().strftime("%d/%m/%Y %H:%M:%S"),stop_time-start_time,num_links-n_fail_links,n_fail_links,sent_count)
     summary = prefix+summary
 
     f = open(re.sub(' ', '_', 'outputs/summary_{}.txt'.format(search_term)), 'w')
