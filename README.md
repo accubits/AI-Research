@@ -12,3 +12,4 @@ If you cannot find appropriate AI models in the repo, it might very well be done
 * [Words-Vision-AttnGAN](https://github.com/accubits/AI-Research/tree/master/Words-Vision-AttnGAN)
 * [VoiceCon](https://github.com/accubits/AI-Research/tree/master/VoiceCon)
 * [Lipsync-Video-Generator](https://github.com/accubits/AI-Research/tree/master/Lipsync-Video-Generator)
+* [GoogleNews_ScrapeSummarize](https://github.com/accubits/AI-Research/tree/master/GoogleNews_ScrapeSummarize)

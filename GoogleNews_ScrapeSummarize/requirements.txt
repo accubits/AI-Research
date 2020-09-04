@@ -1,0 +1,8 @@
+requests==2.24
+requests-file==1.5.1
+idna==2.10
+selenium==3.141.0
+regex==2020.7.14
+sumy==0.8.1
+numpy==1.19.1
+newspaper3k==0.2.8
