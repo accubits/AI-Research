@@ -1,5 +1,5 @@
 from flask import Flask, request
-from scrape_summarize import scrapeData, dataClean, textSummary
+from scrape_summarize import scrapeData, dataClean, textSummary, outputSummary
 from datetime import datetime
 
 app = Flask(__name__)
@@ -10,11 +10,7 @@ def summarize():
     search_term = response['search_term']
     num_links = response['num_links']
     sent_count = response['sent_count']
-    articles,n_fail_links = scrapeData(search_term,num_links)
-    clean_data = dataClean(articles)
-    summary = textSummary(clean_data, sent_count)
-    prefix = 'Search term: {}\nDate Created: {}\nLinks failed: {}\n\n'.format(search_term,datetime.now().strftime("%d/%m/%Y %H:%M:%S"),n_fail_links)
-    summary = prefix+summary
+    summary = outputSummary(search_term,num_links,sent_count)
     return summary
     
 

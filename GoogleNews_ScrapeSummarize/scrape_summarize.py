@@ -63,6 +63,15 @@ def textSummary(data, SENTENCES_COUNT):
         x+= ' {}'.format(str(sentence))
     return x
 
+def outputSummary(search_term,num_links,sent_count):
+    articles,n_fail_links = scrapeData(search_term,num_links)
+    clean_data = dataClean(articles)
+    summary = textSummary(clean_data, sent_count)
+    stop_time = time.time()
+    prefix = 'Search term: {}\nDate Created: {}\nTime taken: {:.2f}s\nLinks searched: {}\nLinks failed: {}\nOutput sentence count: {}\n\n'.format(search_term,datetime.now().strftime("%d/%m/%Y %H:%M:%S"),stop_time-start_time,num_links-n_fail_links,n_fail_links,sent_count)
+    summary = prefix+summary
+    return summary
+
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--search", required=True, help='The search term')
@@ -74,12 +83,7 @@ if __name__ == "__main__":
     num_links = args.num_links
     sent_count = args.sent_count
 
-    data,n_fail_links = scrapeData(search_term, num_links)
-    clean_data = dataClean(data)
-    summary = textSummary(clean_data, sent_count)
-    stop_time = time.time()
-    prefix = 'Search term: {}\nDate Created: {}\nTime taken: {:.2f}s\nLinks searched: {}\nLinks failed: {}\nOutput sentence count: {}\n\n'.format(search_term,datetime.now().strftime("%d/%m/%Y %H:%M:%S"),stop_time-start_time,num_links-n_fail_links,n_fail_links,sent_count)
-    summary = prefix+summary
+    summary = outputSummary(search_term,num_links,sent_count)
 
     f = open(re.sub(' ', '_', 'outputs/summary_{}.txt'.format(search_term)), 'w')
     f.write(summary)
