@@ -1,6 +1,6 @@
 # Poem-generation
 
-<img src="framework.png"/>
+<img src="readme_files/framework.png"/>
 
 ### Dependencies
 
@@ -26,4 +26,4 @@ run `pip2 install -r requirements.txt` to install the required dependencies.
 
 ### Sample Outputs
 
-<img src="sample_output.jpg"/>
+<img src="readme_file/sample_output.jpg"/>
