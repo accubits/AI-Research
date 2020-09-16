@@ -34,6 +34,16 @@ run `pip install -r requirements.txt` to install the required dependencies.
 - [Text encoder for coco](https://drive.google.com/open?id=1zIrXCE9F6yfbEJIbNP5-YrEe2pZcPSGJ). Download and save it to `models/`
 - [AttnGAN for coco](https://drive.google.com/open?id=1i9Xkg9nU74RAvkcqKE-rJYhjvzKAMnCi). Download and save it to `models/`
 
+### Additional Information
+
+- A flask api is created and it can be run with the command `python Words-Vision-AttnGAN-API.py`.
+- The api accepts a json file of the format given below and returns the image.
+```
+{
+    "caption" : "CAPTION"
+}
+```
+
 ### Sample Outputs
 
 <img src="sample_output.png"/>
