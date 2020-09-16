@@ -84,9 +84,12 @@ def get_sentiment_feature(img):
     return outputs
 
 def extract_feature(image_file):
-    img = cv2.imread(image_file)
-    assert img is not None, IOError(
-            'The file `{}` may be not an image'.format(image_file))
+    if type(image_file) == str:
+        img = cv2.imread(image_file)
+        assert img is not None, IOError(
+                'The file `{}` may be not an image'.format(image_file))
+    else:
+        img = np.array(image_file)
     # img.shape: H, W, T
     if img.ndim == 2:
         # gray image

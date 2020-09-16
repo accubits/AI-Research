@@ -9,7 +9,7 @@ print ('Loading Generating Poem Module...')
 generate_poem = nn_process.create('generate_poem')
 
 # default path to an image
-DEFAULT_PATH = '../images/test.jpg'
+DEFAULT_PATH = ''
 
 if sys.version_info[0] >= 3:
     raw_input = input
