@@ -28,9 +28,7 @@ run `pip install -r requirements.txt` to install the required dependencies.
 - `*.yml` files are example configuration files for training/evaluation our models.
 
 ### Sampling
-- Run `python3 main.py --cfg cfg/eval_coco.yml --gpu 0` to generate examples from captions in files listed in "./data/birds/example_filenames.txt". Results are saved to `models/`. 
-- Change the `eval_*.yml` files to generate images from other pre-trained models. 
-- Input your own sentence in "./data/birds/example_captions.txt" if you wannt to generate images from customized sentences. 
+- Run `python3 inference.py` to generate examples from caption. Results are saved to `outputs/`. 
 
 ### Pretrained Model
 - [Text encoder for coco](https://drive.google.com/open?id=1zIrXCE9F6yfbEJIbNP5-YrEe2pZcPSGJ). Download and save it to `models/`

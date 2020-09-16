@@ -48,11 +48,11 @@ __C.TRAIN.SMOOTH.LAMBDA = 1.0
 
 # Modal options
 __C.GAN = edict()
-__C.GAN.DF_DIM = 64
-__C.GAN.GF_DIM = 128
+__C.GAN.DF_DIM = 96
+__C.GAN.GF_DIM = 48
 __C.GAN.Z_DIM = 100
 __C.GAN.CONDITION_DIM = 100
-__C.GAN.R_NUM = 2
+__C.GAN.R_NUM = 3
 __C.GAN.B_ATTENTION = True
 __C.GAN.B_DCGAN = False
 
