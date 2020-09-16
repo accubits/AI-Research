@@ -31,7 +31,17 @@ To train your model from scratch, simply run this file:
 
 ### Pretrained Model
 - You can download this pretrained model and the corresponding word_map [here](https://drive.google.com/open?id=189VY65I_n4RTpQnmLGj7IzVnOF6dmePC)
-- Put the downloaded model in the 
+- Put the downloaded files in the `model_files/`
+
+### Additional Information
+
+- A flask api is created and it can be run with the command `python CaptionGenerateAPI.py`.
+- The api accepts a json file of the format given below and returns the caption.
+```
+{
+    "image" : "IMAGE FILE"
+}
+```
 
 ### Sample Outputs
 

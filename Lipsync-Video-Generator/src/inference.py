@@ -81,7 +81,8 @@ def make_animation(source_image, driving_video, generator, kp_detector, relative
 
 def random_input(person):
     file_paths = glob.glob('../input_images/{}/*'.format(person))
-    return file_paths[random.randrange(0,len(file_paths))]   
+    return file_paths[random.randrange(0,len(file_paths))]  
+
 
 if __name__ == "__main__":
     parser = ArgumentParser()
@@ -107,11 +108,15 @@ if __name__ == "__main__":
         person = 'Sasi_Tharoor'
     elif int(opt.person) == 1:
         person = 'Trump'
+
+    input_image = '../input_images/Trump/DT_1.jpg'
+    input_video = '../input_video/crop.mp4'
     
     source_image_path = random_input(person)
     source_image = imageio.imread(source_image_path)
     reader = imageio.get_reader(opt.driving_video)
     output_path = '../output_video/{}.mp4'.format(source_image_path.split('/')[-1].split('.')[0])
+    
 
     fps = reader.get_meta_data()['fps']
     driving_video = []
