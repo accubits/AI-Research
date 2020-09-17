@@ -10,7 +10,7 @@ def make_abs_path(d):
     return osp.join(osp.dirname(osp.realpath(__file__)), d)
 
 
-d = make_abs_path('../train.configs')
+d = make_abs_path('../configs')
 keypoints = _load(osp.join(d, 'keypoints_sim.npy'))
 w_shp = _load(osp.join(d, 'w_shp_sim.npy'))
 w_exp = _load(osp.join(d, 'w_exp_sim.npy'))  # simplified version

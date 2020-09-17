@@ -32,4 +32,4 @@ run `pip install -r requirements.txt` to install the required dependencies.
 
 ### Sample Outputs
 
-<img src="sample_output.png"/>
+<img src="readme_files/sample_output.png"/>

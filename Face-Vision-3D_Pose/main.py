@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-# coding: utf-8
-
-__author__ = 'cleardusk'
-
-"""
-The pipeline of 3DDFA prediction: given one image, predict the 3d face vertices, 68 landmarks and visualization.
-
-[todo]
-1. CPU optimization: https://pmchojnacki.wordpress.com/2018/10/07/slow-pytorch-cpu-performance
-"""
-
 import torch
 import torchvision.transforms as transforms
 import mobilenet_v1
@@ -28,7 +16,6 @@ import argparse
 import torch.backends.cudnn as cudnn
 
 STD_SIZE = 120
-
 
 def main(args):
     # 1. load pre-tained model
@@ -56,10 +43,11 @@ def main(args):
         face_detector = dlib.get_frontal_face_detector()
 
     # 3. forward
-    tri = sio.loadmat('visualize/tri.mat')['tri']
+    tri = sio.loadmat('tri.mat')['tri']
     transform = transforms.Compose([ToTensorGjz(), NormalizeGjz(mean=127.5, std=128)])
     for img_fp in args.files:
         img_ori = cv2.imread(img_fp)
+        # img_ori = img_ori[:, :, [2, 1, 0]]
         if args.dlib_bbox:
             rects = face_detector(img_ori, 1)
         else:
