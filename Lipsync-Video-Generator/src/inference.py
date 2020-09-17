@@ -109,8 +109,6 @@ if __name__ == "__main__":
     elif int(opt.person) == 1:
         person = 'Trump'
 
-    input_image = '../input_images/Trump/DT_1.jpg'
-    input_video = '../input_video/crop.mp4'
     
     source_image_path = random_input(person)
     source_image = imageio.imread(source_image_path)

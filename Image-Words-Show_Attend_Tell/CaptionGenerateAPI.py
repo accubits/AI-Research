@@ -27,7 +27,7 @@ rev_word_map = {v: k for k, v in word_map.items()}  # ix2word
 
 app = Flask(__name__)
 
-@app.route('/generate', methods=['POST'])
+@app.route('/captiongen', methods=['POST'])
 def genImage():
     response = request.files
     image = np.array(Image.open(response['image']))

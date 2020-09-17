@@ -36,7 +36,7 @@ To train your model from scratch, simply run this file:
 ### Additional Information
 
 - A flask api is created and it can be run with the command `python CaptionGenerateAPI.py`.
-- The api accepts a json file of the format given below and returns the caption.
+- The api accepts a json of the format given below and returns the caption.
 ```
 {
     "image" : "IMAGE FILE"

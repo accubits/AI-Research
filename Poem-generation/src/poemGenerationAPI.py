@@ -16,7 +16,7 @@ DEFAULT_PATH = ''
 
 app = Flask(__name__)
 
-@app.route('/generate', methods=['POST'])
+@app.route('/poemgen', methods=['POST'])
 def genImage():
     response = request.files
     image = Image.open(response['image'])

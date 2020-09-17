@@ -23,15 +23,23 @@ To use a different video run `python3 crop-video.py --inp path/to/video.mp4` to 
 
 
 ### Inference
-- Run the command below from `code/` directory to generate the video. The results saved in the `output_video` directory.
+- Run the command below from `src/` directory to generate the video. The results saved in the `output_video` directory.
 Choice = 0 for Sasi Tharoor and 1 for Donald Trump
 ```
 python3 inference.py --person CHOICE 
 ```
 
-
 ### Pretrained Model
-- Please download models from [here](https://drive.google.com/file/d/1_v_xW1V52gZCZnXgh1Ap_gwA9YVIzUnS/view?usp=sharing) and put it under `code/`.
+- Please download models from [here](https://drive.google.com/file/d/1_v_xW1V52gZCZnXgh1Ap_gwA9YVIzUnS/view?usp=sharing) and put it under `src/`.
+
+### Additional Information
+
+- A flask api is created and it can be run with the command `python LipSyncAPI.py`.
+- The api accepts form data of the format given below and returns gif as output.
+```
+"image" : IMAGE_FILE
+"video" : VIDEO_FILE
+```
 
 ### Sample Outputs
 
