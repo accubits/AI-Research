@@ -28,7 +28,7 @@ rev_word_map = {v: k for k, v in word_map.items()}  # ix2word
 app = Flask(__name__)
 
 @app.route('/captiongen', methods=['POST'])
-def genImage():
+def captionGen():
     response = request.files
     image = np.array(Image.open(response['image']))
     seq, alphas = caption_image_beam_search(encoder, decoder, image, word_map, 5)

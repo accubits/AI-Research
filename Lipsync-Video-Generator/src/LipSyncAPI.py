@@ -16,7 +16,7 @@ import base64
 app = Flask(__name__)
 
 @app.route('/lipsync', methods=['POST'])
-def genImage():
+def lipsync():
     response = request.files
     image = response['image']
     video = response['video']

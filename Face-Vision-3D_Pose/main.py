@@ -37,8 +37,8 @@ def main(args):
 
     # 2. load dlib model for face detection and landmark used for face cropping
     if args.dlib_landmark:
-        dlib_landmark_model = 'models/shape_predictor_68_face_landmarks.dat'
-        face_regressor = dlib.shape_predictor(dlib_landmark_model)
+            dlib_landmark_model = 'models/shape_predictor_68_face_landmarks.dat'
+            face_regressor = dlib.shape_predictor(dlib_landmark_model)
     if args.dlib_bbox:
         face_detector = dlib.get_frontal_face_detector()
 
