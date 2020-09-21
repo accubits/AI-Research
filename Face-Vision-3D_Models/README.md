@@ -54,3 +54,4 @@ The PLY files can be displayed using standard off-the-shelf 3D (ply file) visual
 ### Sample Outputs
 
 <img src="sample_output.png"/>
+
