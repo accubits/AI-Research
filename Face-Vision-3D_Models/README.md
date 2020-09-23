@@ -50,6 +50,9 @@ The final 3D shape has `<postfix>` as `"final_frontal"`.
 
 The PLY files can be displayed using standard off-the-shelf 3D (ply file) visualization software such as [MeshLab](http://meshlab.sourceforge.net).
 
+### Additional Information
+
+- A flask api is created and it can be run with the command `python Face3D_API.py` it runs along with the queue implementation `Face3D_Queue.py` of the project which waits for an image to upload and save it in the local system.
 
 ### Sample Outputs
 

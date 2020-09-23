@@ -1,7 +1,9 @@
 FROM mxnet/python:1.1.0_nccl
 
 RUN apt-get update
+RUN apt-get install -y mosquitto mosquitto-clients
 RUN apt-get install -y libhdf5-serial-dev libboost-all-dev nano cmake libosmesa6-dev freeglut3-dev
+
 #RUN apt install zip
 RUN wget http://dlib.net/files/dlib-19.6.tar.bz2; \
 	tar xvf dlib-19.6.tar.bz2; \
@@ -14,8 +16,10 @@ RUN wget http://dlib.net/files/dlib-19.6.tar.bz2; \
 	cd ..; \
 	python setup.py install --yes USE_AVX_INSTRUCTIONS --yes DLIB_USE_CUDA
 
+
 RUN pip install http://download.pytorch.org/whl/cu90/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
-RUN pip install opencv-python torchvision==0.2.1 scikit-image cvbase pandas mmdnn
+#RUN pip install opencv-python 
+RUN pip install torchvision==0.2.1 scikit-image cvbase pandas mmdnn Flask paho-mqtt pika
 
 WORKDIR /app
 ADD . /app
