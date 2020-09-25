@@ -30,7 +30,7 @@ If you compile the code with Docker, you need to start a Docker container to run
 - Copy input data (if needed) to the shared folder
 - Start container:
 ```
-	nvidia-docker run --rm -ti --ipc=host --privileged -v /home/ubuntu/shared:/shared extreme-3dmm-docker bash
+	nvidia-docker run --rm -ti --ipc=host --privileged -v /home/ubuntu/shared:/shared face3dmodel bash
 ```
 Now folder `/home/ubuntu/shared` on your host computer will be mounted to folder `/shared` inside the container
 
