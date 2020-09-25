@@ -19,7 +19,7 @@ Note that we modified the model files from the 3DMM-CNN paper. Therefore, if you
 - Install [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
 - Build docker image:
 ```
-	docker build -t extreme-3dmm-docker .
+	docker build -t face3dmodel .
 ```
 
 ## Usage
