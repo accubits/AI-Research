@@ -5,3 +5,4 @@ scipy>=1.1.0
 matplotlib==3.0.2
 dlib==19.9
 opencv-python>=3.4.3.18
+Flask
