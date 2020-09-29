@@ -1,4 +1,4 @@
-from poemGenerationAPI import app
+from poemAPI import app
 
 if __name__ == "__main__":
     app.run()

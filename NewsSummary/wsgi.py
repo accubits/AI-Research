@@ -1,4 +1,4 @@
-from scrapper_api import app
+from summaryAPI import app
 
 if __name__ == "__main__":
     app.run()
