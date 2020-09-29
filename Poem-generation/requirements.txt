@@ -1,7 +1,0 @@
-mxnet
-tensorflow==1.15
-opencv-python
-tqdm
-colorama
-flask
-uwsgi
