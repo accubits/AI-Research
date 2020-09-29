@@ -5,11 +5,11 @@ Instructions for running and evaluating the code is included.
 If you cannot find appropriate AI models in the repo, it might very well be done to avoid proprietory information leaking out. If you require assistance with the models, let us know in the ```Issues``` section.
 
 ### Projects
-* [Face-Vision-3D_Models](https://github.com/accubits/AI-Research/blob/master/Face-Vision-3D_Models/README.md)
-* [Face-Vision-3D_Pos](https://github.com/accubits/AI-Research/blob/master/Face-Vision-3D_Pose/README.md)
-* [Image-Words-Show_Attend_Tell](https://github.com/accubits/AI-Research/blob/master/Image-Words-Show_Attend_Tell/README.md)
-* [Poem-generation](https://github.com/accubits/AI-Research/blob/master/Poem-generation/README.md)
-* [Words-Vision-AttnGAN](https://github.com/accubits/AI-Research/tree/master/Words-Vision-AttnGAN)
+* [FaceVisionModel](https://github.com/accubits/AI-Research/blob/master/FaceVisionModel)
+* [FaceVisionPose](https://github.com/accubits/AI-Research/blob/master/FaceVisionPose)
+* [ImageWords](https://github.com/accubits/AI-Research/blob/master/ImageWords)
+* [LipsyncVideo](https://github.com/accubits/AI-Research/tree/master/LipsyncVideo)
+* [NewsSummary](https://github.com/accubits/AI-Research/tree/master/NewsSummary)
+* [PoemGeneration](https://github.com/accubits/AI-Research/blob/master/PoemGeneration)
 * [VoiceCon](https://github.com/accubits/AI-Research/tree/master/VoiceCon)
-* [Lipsync-Video-Generator](https://github.com/accubits/AI-Research/tree/master/Lipsync-Video-Generator)
-* [GoogleNews_ScrapeSummarize](https://github.com/accubits/AI-Research/tree/master/GoogleNews_ScrapeSummarize)
+* [WordsVision](https://github.com/accubits/AI-Research/tree/master/WordsVision)

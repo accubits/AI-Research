@@ -116,29 +116,29 @@ dmypy.json
 .pyre/
 
 #Image-Words-Show_Attend_Tell
-Image-Words-Show_Attend_Tell/models/
+ImageWords/models/
 
 #Lipsync-Video-Generator
-Lipsync-Video-Generator/src/vox-cpk.pth.tar
+LipsyncVideo/src/vox-cpk.pth.tar
 
-#Poem-generation
-Poem-generation/model/
+#PoemGeneration
+PoemGeneration/model/
 
-#Words-Vision-AttnGAN
-Words-Vision-AttnGAN/models/
+#WordsVision
+WordsVision/models/
 
-# Face-Vision-3D_Models
-Face-Vision-3D_Models/CNN/ckpt_109_grad.pth.tar
-Face-Vision-3D_Models/CNN/shape_model.pth
-Face-Vision-3D_Models/CNN/shape_model.py
-Face-Vision-3D_Models/CNN/shape_mean.npz
-Face-Vision-3D_Models/3DMM_model/01_MorphableModel.mat
-Face-Vision-3D_Models/3DMM_model/BaselFaceModel_mod.mat
-Face-Vision-3D_Models/3DMM_model/BaselFaceModel_mod.h5
-Face-Vision-3D_Models/dlib_model/shape_predictor_68_face_landmarks.dat
+# FaceVisionModel
+FaceVisionModel/CNN/ckpt_109_grad.pth.tar
+FaceVisionModel/CNN/shape_model.pth
+FaceVisionModel/CNN/shape_model.py
+FaceVisionModel/CNN/shape_mean.npz
+FaceVisionModel/3DMM_model/01_MorphableModel.mat
+FaceVisionModel/3DMM_model/BaselFaceModel_mod.mat
+FaceVisionModel/3DMM_model/BaselFaceModel_mod.h5
+FaceVisionModel/dlib_model/shape_predictor_68_face_landmarks.dat
 
-#Face-Vision-3D_Pose
-Face-Vision-3D_Pose/models/shape_predictor_68_face_landmarks.dat
+#FaceVisionPose
+FaceVisionPose/models/shape_predictor_68_face_landmarks.dat
 
 
 # VoiceCon
