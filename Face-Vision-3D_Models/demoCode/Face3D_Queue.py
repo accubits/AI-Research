@@ -1,28 +1,5 @@
-#############################################################################
-#Copyright 2017-2018, Anh Tuan Tran, Tal Hassner, Iacopo Masi, Eran Paz, Yuval Nirkin, and Gerard Medioni
-#The SOFTWARE provided in this page is provided "as is", without any guarantee
-#made as to its suitability or fitness for any particular use. It may contain
-#bugs, so use of this tool is at your own risk. We take no responsibility for
-#any damage of any sort that may unintentionally be caused through its use.
-# Please, cite the paper:
-# @article{tran16_3dmm_cnn,
-#   title={Extreme {3D} Face Reconstruction: Looking Past Occlusions},
-#   author={Anh Tran 
-#       and Tal Hassner 
-#       and Iacopo Masi
-#       and Eran Paz
-#       and Yuval Nirkin
-#       and G\'{e}rard Medioni}
-#   journal={arXiv preprint},
-#   year={2017}
-# }
-# if you find our code useful.
-##############################################################################
 import os
-## To suppress the noise output of Caffe when loading a model
-## polish the output (see http://stackoverflow.com/questions/29788075/setting-glog-minloglevel-1-to-prevent-output-in-shell-from-caffe)
 os.environ['GLOG_minloglevel'] = '2' 
-###################
 import numpy as np
 from PIL import Image
 from glob import glob
@@ -49,7 +26,6 @@ def on_connect(client, userdata, flags, rc):
 def on_message(client, userdata, msg):
 	if msg.payload.decode()=='yes':
 		run()
-    # client.disconnect()
 	
 # CNN network spec
 model_path  = '../CNN/shape_model.pth'
@@ -62,7 +38,7 @@ GPU_ID = 0
 BFM_path = '../3DMM_model/BaselFaceModel_mod.mat'
 ## CNN template size
 trg_size = 224
-#### Initiate ################################
+#### Initiate ####
 predictor_path = "../dlib_model/shape_predictor_68_face_landmarks.dat"
 fileList = 'testImages.txt'
 data_out = '/shared'

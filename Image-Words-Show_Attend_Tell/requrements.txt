@@ -3,3 +3,4 @@ torchvision==0.2.2
 matplotlib
 scikit-image
 scipy==1.1.0
+uwsgi

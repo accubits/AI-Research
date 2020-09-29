@@ -19,7 +19,7 @@ RUN wget http://dlib.net/files/dlib-19.6.tar.bz2; \
 
 RUN pip install http://download.pytorch.org/whl/cu90/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
 #RUN pip install opencv-python 
-RUN pip install torchvision==0.2.1 scikit-image cvbase pandas mmdnn Flask paho-mqtt pika
+RUN pip install torchvision==0.2.1 scikit-image cvbase pandas mmdnn Flask paho-mqtt pika uwsgi
 
 WORKDIR /app
 ADD . /app

@@ -7,3 +7,4 @@ torchfile
 nltk
 scikit-image
 pyyaml
+uwsgi
