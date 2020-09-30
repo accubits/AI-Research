@@ -8,3 +8,4 @@ nltk
 scikit-image
 pyyaml
 uwsgi
+flask
