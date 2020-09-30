@@ -15,16 +15,19 @@ from miscc.utils import weights_init
 from datasets import TextDataset, prepare_data
 from miscc.utils import build_super_images, build_super_images2
 
+device = torch.device("cpu")
+
 netG = G_NET()
 netG.apply(weights_init)
-netG.cuda()
+netG.cpu()
+# netG.cuda()
 netG.eval()
 #
 text_encoder = RNN_ENCODER(27297, nhidden=256)
 state_dict = \
     torch.load('../models/text_encoder100.pth', map_location=lambda storage, loc: storage)
 text_encoder.load_state_dict(state_dict)
-text_encoder = text_encoder.cuda()
+text_encoder = text_encoder.cpu()
 text_encoder.eval()
 
 state_dict = \
@@ -95,13 +98,13 @@ def gen_img(sentences):
             captions = Variable(torch.from_numpy(captions))
             cap_lens = Variable(torch.from_numpy(cap_lens))
 
-            captions = captions.cuda()
-            cap_lens = cap_lens.cuda()
+            captions = captions.cpu()
+            cap_lens = cap_lens.cpu()
 
         for i in range(1):  
             with torch.no_grad():
                 noise = Variable(torch.FloatTensor(batch_size, nz))
-                noise = noise.cuda()
+                noise = noise.cpu()
             hidden = text_encoder.init_hidden(batch_size)
 
             words_embs, sent_emb = text_encoder(captions, cap_lens, hidden)
