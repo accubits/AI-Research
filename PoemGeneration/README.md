@@ -26,12 +26,6 @@ run `pip2 install -r requirements.txt` to install the required dependencies.
 ### Additional Information
 
 - A flask api is created and it can be run with the command `python poemGenerationAPI.py`.
-- The api accepts a json of the format given below and returns the image.
-```
-{
-    "image" : "IMAGE FILE"
-}
-```
 
 ### Sample Outputs
 
