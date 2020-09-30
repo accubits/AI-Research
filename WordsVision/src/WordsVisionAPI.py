@@ -12,7 +12,7 @@ def serve_pil_image(pil_img):
     img_io.seek(0)
     return send_file(img_io, mimetype='image/jpeg')
 
-@app.route('/wordsvision', methods=['POST'])
+@app.route('/imagegen', methods=['POST'])
 def genImage():
     response = request.json
     caption = response['caption']
