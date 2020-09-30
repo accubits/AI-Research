@@ -15,12 +15,9 @@ from miscc.utils import weights_init
 from datasets import TextDataset, prepare_data
 from miscc.utils import build_super_images, build_super_images2
 
-device = torch.device("cpu")
-
 netG = G_NET()
 netG.apply(weights_init)
 netG.cpu()
-# netG.cuda()
 netG.eval()
 #
 text_encoder = RNN_ENCODER(27297, nhidden=256)
