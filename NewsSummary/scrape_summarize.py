@@ -23,8 +23,6 @@ start_time = time.time()
 
 chrome_options = Options()
 chrome_options.add_argument("--headless") 
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-dev-shm-usage')
 
 def scrapeData(search_term,num_links):
     driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver",options=chrome_options)
