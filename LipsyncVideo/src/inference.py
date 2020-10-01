@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
     parser.add_argument("--person", required=True, help="\n0 - Sasi Tharoor \n1 - Trump")
 
-    parser.add_argument("--driving_video", default='../input_video/crop.mp4', help="path to driving video")
+    parser.add_argument("--driving_video", default='../input_video/demo.mp4', help="path to driving video")
  
     parser.add_argument("--relative", dest="relative", action="store_true", help="use relative or absolute keypoint coordinates")
     parser.add_argument("--adapt_scale", dest="adapt_scale", action="store_true", help="adapt movement scale based on convex hull of keypoints")
