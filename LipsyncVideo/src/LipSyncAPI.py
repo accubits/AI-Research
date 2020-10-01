@@ -5,7 +5,7 @@ import paho.mqtt.client as mqtt
 
 app = Flask(__name__)
 
-@app.route('/lipsync', methods=['POST'])
+@app.route('/lipsyncgen', methods=['POST'])
 def lipsync():
     path_image = str('../input_images/API/image-{}.jpg'.format(uuid.uuid1()))
     path_video = str('../input_video/API/video-{}.mp4'.format(uuid.uuid1()))
