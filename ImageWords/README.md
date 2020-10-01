@@ -16,7 +16,7 @@ run `pip install -r requirements.txt` to install the required dependencies.
 
 
 ### Inference
-- Run `python3 caption.py --img='PATH_TO_IMAGE' --model='./PATH_TO_MODEL/BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='./PATH_TO_WORDMAP/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json' --beam_size=5` to generate examples caption. The results will be opened in a window.
+- Run `python3 caption.py --img='PATH_TO_IMAGE' --model='./PATH_TO_MODEL/BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='./PATH_TO_WORDMAP/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json' --beam_size=5` to generate examples caption. The results will be saved in `outputs` directory.
 
 ### Training
 
