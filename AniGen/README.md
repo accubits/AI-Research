@@ -22,7 +22,7 @@ text content <|endoftext|>
 ```
 The text data must be followed by an `<|endoftext|>` tag.
 
-The API body must be of the a form data with the file key `file`
+The API takes in form data with the file key `file`. It accepts `.txt` files.
 
 2. 'gpt_sample' - To produce sample from the traned gpt2 model.
 The API body must be of the json format:
@@ -41,9 +41,4 @@ The API body must be of the Json format:
 ```
 
 ### Pretrained Model
-- [StoryGAN Model](https://www.google.com/). Download and save it to `models/storyGAN_model`
-
-### Sample Outputs
-
-<img src="sample_output.png"/>
-
+- [StoryGAN Model](https://drive.google.com/file/d/1UYwAoVDP37Vz0k3lJtTH_tTrUhiy0Ch2/view?usp=sharing). Download and save it to `models/storyGAN_model`
