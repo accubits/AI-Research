@@ -13,3 +13,4 @@ If you cannot find appropriate AI models in the repo, it might very well be done
 * [PoemGeneration](https://github.com/accubits/AI-Research/blob/master/PoemGeneration)
 * [VoiceCon](https://github.com/accubits/AI-Research/tree/master/VoiceCon)
 * [WordsVision](https://github.com/accubits/AI-Research/tree/master/WordsVision)
+* [AniGen](https://github.com/accubits/AI-Research/tree/master/AniGen)
